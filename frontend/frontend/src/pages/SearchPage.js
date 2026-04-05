@@ -110,7 +110,7 @@ export default function SearchPage() {
             </div>
 
             <div className="form-group">
-              <label className="form-label">Job Title Keywords</label>
+              <label className="form-label">Job Title Keyword</label>
               <input name="job_title_keywords" value={form.job_title_keywords} onChange={handleChange} className="form-input" placeholder="e.g. CEO, Managing Director, CIO" />
             </div>
           </div>
